@@ -3,9 +3,10 @@ function iniciar(){
 }
 
 function frase(){
-	var numero=Math.floor((Math.random() * 100) + 1);
+	var numero=Math.floor((Math.random() * 50) + 1);
 	var frase="hola mundo";
 	switch(numero){
+	/*
 		case 1: frase="...comprobé que mi backup realmente funcionaba"; break;
 		case 2: frase="...Nunca llegué tarde"; break;
 		case 3: frase="...he besado a alguien sin conocerlo"; break;
@@ -106,6 +107,58 @@ function frase(){
 		case 98: frase="...yo nunca he comido caca"; break;
 		case 99: frase="...he usado el PC a modo de estufa"; break;
 		case 100: frase="...vi Harry Potter"; break;
+	*/	
+		case 1: frase="...me he acostado con algún familiar."; break;
+		case 2: frase="...he utilizado algún objeto de casa como juguete sexual."; break;
+		case 3: frase="...me he acostado con alguien por lo popular que es."; break;
+		case 4: frase="...he tenido que borrar alguna conversación, por miedo que mi novi@ la encuentre."; break;
+		case 5: frase="...he tratado de ligar a alguien después de saber que tiene pareja."; break;
+		case 6: frase="...me he acostado con un amigo solo para ver “como se siente”."; break;
+		case 7: frase="...he practicado sexo oral a una persona a la cual no he besado nunca."; break;
+		case 8: frase="...me he equivocado de nombre de la persona a la hora de estar con ella."; break;
+		case 9: frase="...he tenido que ir al hospital por algún objeto extraño que se quedo atorado dentro de mí."; break;
+		case 10: frase="...he tenido relaciones con alguien que no me gusta por estar urgid@."; break;
+		case 11: frase="...he aspirado una línea de cocaína del cuerpo de alguien más."; break;
+		case 12: frase="...he recibido quejas por “ruido” después de tener relaciones."; break;
+		case 13: frase="...he tenido relaciones con la posibilidad que algún extraño me vea."; break;
+		case 14: frase="...he pagado por sexo."; break;
+		case 15: frase="...he jugado con un vibrador mientras tengo relaciones."; break;
+		case 16: frase="...he sido infiel."; break;
+		case 17: frase="...he dado o recibido un masaje sensual."; break;
+		case 18: frase="...he hecho un striptease."; break;
+		case 19: frase="...he tenido que preguntarle a alguien si hemos hecho algo porque no estaba segur@."; break;
+		case 20: frase="...he dado o recibido un baile erótico."; break;
+		case 21: frase="...he tenido relaciones cuando estoy en mis días (o con una mujer en sus días)."; break;
+		case 22: frase="...he dormido con el padre o madre de una amistad."; break;
+		case 23: frase="...he fantasiado con el novio o novia de mi mejor amig@."; break;
+		case 24: frase="...he coqueteado solamente para conseguir algo."; break;
+		case 25: frase="...he dormido con mi jefe o un profesor para conseguir un aumento o una mejor calificación."; break;
+		case 26: frase="...he sido llamado “player” o “zorra” y que en el fondo me gustara."; break;
+		case 27: frase="...he tenido algún susto de tener un ETS."; break;
+		case 28: frase="...he tenido algún dedo en mi ano."; break;
+		case 29: frase="...he tenido un trío."; break;
+		case 30: frase="...me he acostado con una persona casada."; break;
+		case 31: frase="...he escrito una “lista negra” (lista de las personas con las que he hecho algo para contarlas)."; break;
+		case 32: frase="...he tenido que mentir con la cantidad de personas con las que ha pasado algo."; break;
+		case 33: frase="...he metido mano durante una película, atrás de un taxi, o en un avión."; break;
+		case 34: frase="...he traído algún objeto a la hora de tener relaciones."; break;
+		case 35: frase="...me he masturbado con porno."; break;
+		case 36: frase="...he hecho juego de roles."; break;
+		case 37: frase="...he sorprendido a alguien desnud@."; break;
+		case 38: frase="...he contestado la llamada de un jale en la madrugada, sabiendo a lo que llama."; break;
+		case 39: frase="...he apagado mi celular para evitar la llamada de alguien."; break;
+		case 40: frase="...me he despertado enseguida de una persona extraña."; break;
+		case 41: frase="...he tenido un final feliz."; break;
+		case 42: frase="...he comido del cuerpo de otra persona."; break;
+		case 43: frase="...he hecho algo con dos personas en menos de 24 horas."; break;
+		case 44: frase="...he dormido con gemel@s."; break;
+		case 45: frase="...he tenido que hacer la “caminata de la vergüenza”."; break;
+		case 46: frase="...he sido visto a alguien teniendo relaciones."; break;
+		case 47: frase="...me he acostado con alguien solo porque es famos@."; break;
+		case 48: frase="...he experimentado con alguien de mi mismo sexo."; break;
+		case 49: frase="...he dicho “Te amo” solo para poder acostarme con esa persona."; break;
+		case 50: frase="...he buscado “adicción al sexo” en Google."; break;
+
 	}
 	$(".frase").text(numero+" "+frase);
 }
